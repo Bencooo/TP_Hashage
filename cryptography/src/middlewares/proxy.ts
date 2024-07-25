@@ -8,7 +8,7 @@ export const config = {
 };
 
 const proxy = createProxyMiddleware({
-  target: 'http://34.163.219.17:8080', // L'adresse du serveur distant
+  target: 'http://34.163.219.17:3000', 
   changeOrigin: true,
 });
 
